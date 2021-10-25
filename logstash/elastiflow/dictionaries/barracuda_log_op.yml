@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------
-# Copyright (C)2018 Robert Cowart
+# Copyright (C)2020 Robert Cowart
 # 
 # The contents of this file and/or repository are subject to the Robert Cowart
 # Public License (the "License") and may not be used or distributed except in
@@ -12,14 +12,35 @@
 # the specific language governing rights and limitations under the License.
 # 
 # The Original Source Code was developed by Robert Cowart. Portions created by
-# Robert Cowart are Copyright (C)2018 Robert Cowart. All Rights Reserved.
+# Robert Cowart are Copyright (C)2020 Robert Cowart. All Rights Reserved.
 #------------------------------------------------------------------------------
 
-# You must specify the application_id source type for your devices below. This
-# value is used by the pipeline to specify which dictionary to use for
-# translating the application_id to a user-friendly description.
-
-# These first two entries are examples. But they also ensure the pipeline loads without errors when no other devices are specified.
-# DO NOT DELETE these two entries unless you have added your own entries.
-"192.0.2.1": "cisco_nbar2"
-"192.0.2.2": "fortinet"
+"0": "Unknown"
+"1": "Allow"
+"2": "Local Allow"
+"3": "Block"
+"4": "Local Block"
+"5": "Remove"
+"6": "Local Remove"
+"7": "Drop"
+"8": "Terminate"
+"9": "Local Terminate"
+"10": "Change"
+"11": "Operation"
+"12": "Startup"
+"13": "Configuration"
+"14": "Rule"
+"15": "State"
+"16": "Local State"
+"17": "Process"
+"18": "Admin Action"
+"19": "Deny"
+"20": "Local Deny"
+"21": "Security Event"
+"22": "Sync"
+"23": "Fail"
+"24": "Local Fail"
+"25": "ARP"
+"26": "Detect"
+"27": "Local Detect"
+"28": "Intermediate Report"
